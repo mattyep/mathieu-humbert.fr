@@ -55,6 +55,23 @@ h2 {
   border-radius: 100px;
   float: left;
   height: 170px;
+  margin-bottom: 20px;
   margin-right: 30px;
   width: 170px;
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    margin-top : 40px;
+  }
+
+  p, h2 {
+    clear: left;
+  }
+
+  .contact svg {
+    height:2.5rem;
+    margin-right: 18px;
+    margin-top: 10px;
+  }
 }
